@@ -1,0 +1,18 @@
+body {
+    font-family: "Arial";
+    font-size: 15px;
+}
+
+table {
+    /* background: gray; */
+    background-image: linear-gradient(#cfd8dc42,white,#cfd8dc42);
+}
+
+.text {
+    width: 200px;
+}
+
+#link {
+    color: #1df2f2;
+    font-weight: bold;
+}

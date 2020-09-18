@@ -1,0 +1,33 @@
+body {
+    font-family: "Arial";
+}
+
+img {
+    width: 50px;
+    height: 90px;
+}
+
+td {
+    width: 150px;
+    border:  2px solid gray;
+}
+
+td:hover {
+    border:  2px solid orange;
+}
+
+.name {
+    color: orange
+}
+
+.name:hover {
+    color: blue;
+}
+
+.price {
+    color: red;
+}
+
+.price:hover{
+    color: blue;
+}
