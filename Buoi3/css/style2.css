@@ -16,3 +16,7 @@ table {
     color: #1df2f2;
     font-weight: bold;
 }
+
+p:hover {   
+    color: red;
+}
