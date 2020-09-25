@@ -1,0 +1,208 @@
+* {
+    margin: 0 auto;
+    padding: 0 ;
+}
+
+body {
+    background-image: url('../images/tuyet.jpg');
+}
+
+#container {
+    background-color:white;
+    width: 900px;
+    height: 1160px;
+    font-family: Arial;
+    font-size: 12px;
+    margin: 10px auto;
+}
+
+#banner {
+    height: 250px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px
+}
+
+#menu {
+    margin: 0 5px;
+}
+
+#menu .table {
+    background-image: url('../images/line_bar.gif');
+    background-size: cover;
+    height: 40px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+#menu .table li{
+   float: left;
+   margin: 15px 10px 10px 10px;
+   text-align: center;
+}
+
+#menu .table a{
+    color: orange;
+    font-weight: bold;
+}
+
+#menu .table a:hover {
+    color: blue
+}
+
+#menu img {
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+li {
+    margin: 3px 0 7px 2px;
+    color: black;
+}
+ 
+
+#hr2 {
+    margin: 10px 0 5px 0;
+    
+}
+
+#main {
+    height: 800px;
+}
+
+#main-left {
+    width:140px;
+    height:100%;
+    float: left;
+    margin: 5px;
+}
+
+#category-1, #category-2, #category-3, #category-4 {
+    border: 2px solid gray;
+    margin-bottom: 15px;
+}
+
+.header-category {
+    background-image: url('../images/menu_bar.gif');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 25px;
+    margin: auto;
+}
+
+.image-left, .image-right {
+    width: 140px;
+}
+
+#main-content{
+    width: 590px;
+    height: 100%;
+    float: left;
+    margin: 5px;
+}
+
+#introduce {
+    background-color:lightsalmon;
+    border: 1px solid none;
+    border-radius: 10px;
+    color: white;
+    text-align: justify;
+    font-style: italic;
+}
+
+#introduce p {
+    padding: 10px;
+    line-height: 15px;
+}
+
+.main-bar-left {
+    background-image: url('../images/main_bar_left.gif');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;
+    height: 25px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    margin-top: 20px;
+}
+
+.main-content-text {
+    font-weight: 500;
+    color: orange;
+}
+
+.main-content-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.main-content-image {
+    border: 1px ridge gray;
+    padding: 1px;
+}
+
+#technology, #education, #enterprise, #service {
+    height: 19%
+}
+
+#education .main-content-image{
+    width: 155px;
+    height: 108px;
+}
+
+.main-content-right {
+    float: right;
+    margin-left: 10px;
+}
+
+.main-bar-right {
+    margin-top: 20px;
+    background-image: url('../images/main_bar_right.gif');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;
+    height: 25px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#main-right {
+    width: 140px;
+    height: 100%; 
+    float: left;
+    margin: 5px;
+}
+
+
+#footer {
+    background-image: url('../images/line_bar.gif');
+    background-size: cover;
+    background-position: center;
+    text-align:center;
+    color: white;
+    height: 60px;
+    margin: 5px;
+}
+
+#footer p {
+    margin-top: -20px;
+}
