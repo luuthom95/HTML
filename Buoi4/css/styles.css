@@ -67,7 +67,7 @@ a {
 }
 
 a:hover {
-    color: blue;
+    color: orange;
 }
 
 li {
@@ -148,6 +148,10 @@ li {
 .main-content-text {
     font-weight: 500;
     color: orange;
+}
+
+.main-content-text:hover {
+    color: blue;
 }
 
 .main-content-left {
