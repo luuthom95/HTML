@@ -1,0 +1,149 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#container {
+    background-image: url('../images/bg.jpg');
+    font-family: Times, "Times New Roman",;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 1200px;
+    height: 850px;
+}
+
+header {
+    height: 110px;
+    position: relative;
+
+}
+
+header h1 {
+   position: absolute;
+   top: 35px;
+   left: 20px;
+}
+
+header button {
+    margin: 30px 20px 0 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+header a {
+    text-decoration: none;
+    margin: 35px 20px 0 20px;
+    font-size: 18px;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+button {
+    font-size: 18px;
+
+}
+
+.header-right {
+    float: right;
+}
+
+#main {
+    height: 700px
+}
+
+#sidebar {
+    margin-left: 30px;
+    float: left;
+    width: 200px;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#sidebar ul li {
+    margin-bottom: 7px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: gray;
+}
+
+#sidebar a:hover {
+    color: red;
+}
+
+#content {
+    height: 100%;
+    align-self: right;
+}
+
+.image {
+    float: left;
+    background-color:whitesmoke;
+    height: 160px;
+    position: relative;
+    margin: 0 15px 30px 15px;
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.image h3 {
+    font-size: 18px;
+    height: 40px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image img {
+    height: 160px;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.image-footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-footer p {
+    margin: 5px 10px;
+}
+
+#footer {
+    height: 50px;
+    font-size: 16px;
+}
+
+#footer p {
+    margin: 0 20px;
+    float: left;
+}
+
+#footer a {
+    float: left;
+    color: blue;
+    margin-right: 20px;
+}
+
+#footer a:hover {
+    color: red;
+}
