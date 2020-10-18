@@ -111,7 +111,7 @@ li {
 } 
 
 #horizontal-menu2>li:hover>ul {
-    width: 700px;
+    width: 800px;
     display: block;
     padding: 0;
     background-color:#b81c1c;
