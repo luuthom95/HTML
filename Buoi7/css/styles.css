@@ -125,13 +125,21 @@ h1,h2,h3,a {
 }
 
 
-@media only screen and (max-width:700px) {
-    #container {
+@media screen and (max-width:700px) {
+    #container,#main,#content1 {
         width: 100%
+    }
+
+    .col-s-6 {
+        width: 45%;
+    }
+
+    .col-s-12 {
+        width: 98%;
     }
 }
 
-@media only screen and (max-width:480px) {
+@media screen and (max-width:480px) {
     [class*="col-"] {
         width: 100%;
       }
