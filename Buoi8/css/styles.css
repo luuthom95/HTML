@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.image {
+    margin: 5px;
+    width: 20%;
+    float: left;
+    width: 19%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.description {
+    display: none;
+    width: 100%;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 900;
+    font-style: italic;
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    line-height: 40px;
+}
+
+.image:hover > .description {
+    display: block;
+}
+
+@media screen and (max-width:1290px) {
+    #container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1051px) {
+    .image {
+        width: 31%;
+    }
+}
+
+@media screen and (max-width:651px) {
+    .image {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width:504px) {
+    .image {
+        width: 98%;
+    }
+}
+
