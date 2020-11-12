@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 5</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <script>
+        var thang; 
+        thang = prompt('Nhập tháng: ')
+        //Cach 1 
+        if (thang === "tháng một") {
+            thang = "January";
+        } else if (thang === "tháng hai") {
+            thang = "Febuary";
+        } else if (thang === "tháng ba") {
+            thang = "March";
+        } else if (thang === "tháng tư") {
+            thang = "April";
+        } else if (thang === "tháng năm") {
+            thang = "May";
+        } else if (thang === "tháng sáu") {
+            thang = "June";
+        } else if (thang === "tháng bảy") {
+            thang = "July";
+        } else if (thang === "tháng tám") {
+            thang = "August";
+        } else if (thang === "tháng chín") {
+            thang = "September";
+        } else if (thang === "tháng mười") {
+            thang = "October";
+        } else if (thang === "tháng mười một") {
+            thang = "November";
+        } else if (thang === "tháng mười hai") {
+            thang = "December";
+        } else {
+            thang = "Thông tin vừa nhập không đúng";
+        }
+
+        document.write('Cách 1: '+ thang+'</br>');
+
+        switch(thang) {
+            case('tháng một'): thang = "January"; break;
+            case('tháng hai'): thang = "Febuary"; break;
+            case('tháng ba'): thang = "March"; break;
+            case('tháng tư'): thang = "April"; break;
+            case('tháng năm'): thang = "May"; break;
+            case('tháng sáu'): thang = "June"; break;
+            case('tháng bảy'): thang = "July"; break;
+            case('tháng tám'): thang = "August"; break;
+            case('tháng chín'): thang = "September"; break;
+            case('tháng mười'): thang = "October"; break;
+            case('tháng mười một'): thang = "November"; break;
+            case('tháng mười hai'): thang = "December"; break;
+        }
+
+        document.write('Cách 2: '+ thang);
+
+
+
+    </script>
+</body>
+</html>
