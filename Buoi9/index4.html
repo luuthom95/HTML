@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 2</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <script>
+        var i=1;
+        var giaithua=1;
+
+        var n = prompt('Bạn vui lòng nhập số n','');
+
+        while(i<=n) {
+            giaithua = giaithua * i;
+            i = i + 1;
+        }
+        document.write('1. While ' + n + '! =' + giaithua + '</br>');
+
+        i=1;
+        giaithua=1;
+        do {
+            giaithua = giaithua * i;
+            i = i + 1;
+        }
+        while(i<=n)
+        document.write('2. Do While ' + n + '! =' + giaithua + '</br>');
+
+        giaithua=1;
+        for(i=1; i<=n; i++){
+            giaithua = giaithua * i;
+        }
+        document.write(giaithua);
+        document.write('3. For ' + n + '! =' + giaithua + '</br>');
+
+    </script>
+</body>
+</html>
